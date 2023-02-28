@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>chapter12-13</title>
+    <style>
+        input[type="text"] {
+          width: 150px;
+          padding: 5px;
+        }
+    
+        button {
+          padding: 5px 10px;
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 3px;
+          cursor: pointer;
+        }
+    
+        button:hover {
+          background-color: #0069d9;
+        }
+    
+        p {
+          margin: 10px 0;
+        }
+      </style>
 </head>
 <body>
     <h1>JavaScript Assignment Chapter 12-13</h1> 
     <a href="../index.html"><button>Back</button></a>
+    <br>
+    <h1>24-Hour to 12-Hour Clock Converter</h1>
+    <label>Enter a time in 24-hour clock format (e.g. 1900): </label>
+    <input type="text" id="time24">
+    <button onclick="convertTime()">Convert</button>
+    <p id="output"></p>
 </body>
 </html>
